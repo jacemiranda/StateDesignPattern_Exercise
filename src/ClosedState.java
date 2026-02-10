@@ -1,8 +1,8 @@
 public class ClosedState implements AccountState {
     @Override
     public void deposit(Account account, Double depositAmount) {
-        System.out.println("You cannot deposit on a closed account!"); // [cite: 65]
-        System.out.println(account.toString()); // [cite: 66]
+        System.out.println("You cannot deposit on a closed account!");
+        System.out.println(account.toString());
     }
 
     @Override
